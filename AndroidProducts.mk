@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_jason.mk
+    $(LOCAL_DIR)/nad_jason.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_jason-eng \
-    aosp_jason-user \
-    aosp_jason-userdebug
+    nad_jason-eng \
+    nad_jason-user \
+    nad_jason-userdebug
