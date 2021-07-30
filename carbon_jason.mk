@@ -25,9 +25,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Inherit some common PE stuff.
-$(call inherit-product, vendor/aosp/config/common.mk)
+$(call inherit-product, vendor/carbon/config/common.mk)
 
-PRODUCT_NAME := aosp_jason
+PRODUCT_NAME := carbon_jason
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := jason
 PRODUCT_MANUFACTURER := Xiaomi

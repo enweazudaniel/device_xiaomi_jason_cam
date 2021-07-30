@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_jason.mk
+    $(LOCAL_DIR)/carbon_jason.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_jason-eng \
-    aosp_jason-user \
-    aosp_jason-userdebug
+    carbon_jason-eng \
+    carbon_jason-user \
+    carbon_jason-userdebug
